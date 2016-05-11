@@ -3,6 +3,7 @@ public class Node {
 	private Node next;
 	
 	public Node(){
+		item=null;
 		next=null;
 	}
 	
@@ -30,4 +31,5 @@ public class Node {
 	public Node getNext(){
 		return next;
 	}
+
 }
