@@ -9,6 +9,7 @@ public class Node {
 	
 	public Node(Object newItem){
 		item=newItem;
+		next=null;
 	}
 	
 	public Node(Object newItem, Node nextNode){
